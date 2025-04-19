@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0e5a9;
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 80%;
+}
+
+h1, h2 {
+    margin-bottom: 0.5em;
+}
+
+.the_container {
+    margin-top: 0;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.the_containers {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+img.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.center_container {
+    text-align: center;
+}
+
+.the_card {
+    background-color: #fff;
+    border: 1px solid #573e1a;
+    padding: 15px;
+    border-radius: 9px;
+    margin-bottom: 1rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    display: block;
+    padding: 0.75rem;
+    border: 1px solid #493212;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    background-color: #795f3c;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+nav {
+    background-color: #493212;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav a {
+    padding: 0 0 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: orange;
+}
